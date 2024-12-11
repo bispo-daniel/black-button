@@ -1,5 +1,7 @@
 {
-  "name": "black-button",
+  "name": "@bispo-daniel/black-button",
+  "author": "Daniel Bispo",
+  "license": "MIT",
   "version": "1.1.1",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -15,6 +17,15 @@
     "preview": "vite preview",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bispo-daniel/black-button.git"
+  },
+  "keywords": [
+    "react",
+    "button",
+    "black"
+  ],
   "dependencies": {
     "black-button": "file:",
     "react": "^18.2.0",
